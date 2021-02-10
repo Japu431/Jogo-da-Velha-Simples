@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: #696868;
+    color:white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: bold;
+    margin: 10px;
+    font-size: 18px;
+}
+.square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+
+    background: beige;
+    border: 1px solid gray;
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    content: "\1F311";
+    font-size: 50px;
+    line-height: 100px;
+
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    position: absolute;
+    content: "\1F680";
+    font-size: 50px;
+    line-height: 100px;
+
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
